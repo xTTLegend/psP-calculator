@@ -1,0 +1,36 @@
+#pointer-dot {
+    background-color: #ff4e19;
+    opacity: 0.01;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 2.5px solid #ff4e19;
+    position: fixed;
+    border-radius: 4px;
+    z-index: 101;
+    pointer-events: none;
+    transition: border-color 0.5s;
+}
+#pointer-ring {
+    background-color: #ff4e19;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    border: 2px solid #ff4e19;
+    position: fixed;
+    border-radius: 100px;
+    z-index: 102;
+    pointer-events: none;
+}
+
+html {
+    cursor: none !important;
+}
+
+a {
+    cursor: none !important;
+}
